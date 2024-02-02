@@ -39,7 +39,7 @@ const calculateValue = require("./hisob.js");
 const result = calculateValue.addValue(12, 3);
 console.log("result", result);
 
-const Account = require("./account");
+const Account = require("./account.js");
 
 Account.tellMeTime();
 
