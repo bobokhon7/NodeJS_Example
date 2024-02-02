@@ -1,11 +1,6 @@
 // /////////////////Module package CORE //////////////////////////////
 
-let number = 0;
-setInterval(function () {
-  console.log("result", number);
-  number++;
-}, 3);
-
+// ß
 // const fs = require("fs");
 // const { networkInterfaces } = require("os");
 // const data = fs.readFileSync("./input.txt", "utf8");
@@ -39,16 +34,18 @@ setInterval(function () {
 
 ////////////////////////////////  Module package FILE ///////////////////////////////////
 
-// const calculateValue = require("./hisob.js");
+const calculateValue = require("./hisob.js");
 
-// const result = calculateValue.addValue(12, 3);
-// console.log("result", result);
+const result = calculateValue.addValue(12, 3);
+console.log("result", result);
 
-// const Account = require("./account");
+const Account = require("./account");
 
-// Account.tellMeTime();
+Account.tellMeTime();
 
-// console.log("========");
-// const myAccount = new Account("David", 334566, 123456789);
+console.log("========");
+const myAccount = new Account("David", 334566, 123456789);
 
-// myAccount.depositMoney(222222);
+myAccount.depositMoney(222222);
+
+myAccount.withdrawMoeny(21222);
